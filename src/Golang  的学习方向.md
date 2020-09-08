@@ -1,3 +1,15 @@
+#### Golang 官方文档
+
+官方变成指南
+
+网址：http://tour.studygolang.com/welcome/1
+
+中文标准库：https://studygolang.com/pkgdoc
+
+
+
+
+
 ##### Golang  的学习方向
 
 1.区块链研发工程师
@@ -125,14 +137,6 @@ func main(){
 4. \r  回车   表示从当前行 最前面 开始输入覆盖以前的内容
 
 
-
-#### Golang 官方文档
-
-官方变成指南
-
-网址：http://tour.studygolang.com/welcome/1
-
-中文标准库：https://studygolang.com/pkgdoc
 
 #### DOS常用命令
 
@@ -381,6 +385,13 @@ exit ：退出 DOS
 
    2. 被转换的是变量存储的类型，变量本身的数据类型没有发生变化
 
-   
+   ##### 基本数据类型转 String
 
+   1. fmt.Sprintf("需要转换的变量")  :会返回转换后的字符串
+   2. strconv.FormatInt("需要转换的成String的变量"，"需要转换成多少进制")
    
+   ##### String转基本数据类型
+   
+   1. strconv 包的函数
+   
+      

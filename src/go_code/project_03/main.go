@@ -6,9 +6,12 @@ import (
 
 func main()  {
 
-	var n1 float64 = 100
-	var n2 float32 = float32(n1)
+	var n1 int32 = 12
 
-	fmt.Printf("%T %T",n1,n2)
+	var n3 int8
 
+	n3 = int8(n1) + 127
+	fmt.Println(n3)
+
+	
 }
