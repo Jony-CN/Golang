@@ -6,11 +6,14 @@ import (
 
 func main()  {
 
-	var n1 int = 10
+		var num int = 100
+		
+		var prt *int = &num
 
-	fmt.Println(&n1)
-	
-	var ptr *int = &n1
-	fmt.Println(ptr)
-	
+		fmt.Println(&num)
+
+		*prt = 99
+
+		fmt.Println(num)
+		
 }
