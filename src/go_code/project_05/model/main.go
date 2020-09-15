@@ -7,9 +7,9 @@ import (
 
 func main()  {
 
+	var sum string = "Jony"
+	
+	fmt.Println(sum)
 
-
-		fmt.Println(one.MyName)
-		
-
+	fmt.Println(one.MyName)
 }
